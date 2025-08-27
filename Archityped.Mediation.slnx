@@ -1,6 +1,7 @@
 <Solution>
   <Folder Name="/src/">
     <Project Path="src/Archityped.Mediation.Abstractions/Archityped.Mediation.Abstractions.csproj" />
+    <Project Path="src/Archityped.Mediation/Archityped.Mediation.csproj" />
   </Folder>
   <Folder Name="/tests/">
   </Folder>
