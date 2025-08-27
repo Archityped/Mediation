@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>netstandard2.0;net6.0;net8.0</TargetFrameworks>
+		<Description>A modern, high-performance .NET mediator that unifies in-process messaging, CQRS, and eventing, with strongly typed requests, events, and streaming; pluggable middleware; and dependency injection integration;</Description>
+		<PackageTags>archityped;mediator;mediation;cqrs;events;event-driven;messaging;streaming;middleware;pipelines;dependency-injection;aot;dotnet;csharp</PackageTags>
+		<PackageProjectUrl>https://github.com/Archityped/Mediation/tree/main/src/Archityped.Mediation</PackageProjectUrl>
+		<Version>1.0.0</Version>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.0" />
+	  <PackageReference Include="System.Memory" Version="4.6.3" />
+	</ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Archityped.Mediation.Abstractions\Archityped.Mediation.Abstractions.csproj" />
+  </ItemGroup>
+
+</Project>
