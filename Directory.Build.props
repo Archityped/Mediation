@@ -1,0 +1,16 @@
+<Project>
+
+	<!-- Assembly Info -->
+	<PropertyGroup>
+		<Authors>Archityped</Authors>
+		<RepositoryUrl>https://github.com/Archityped/Mediation</RepositoryUrl>
+		<NeutralLanguage>en</NeutralLanguage>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<LangVersion>12.0</LangVersion>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
+
+</Project>
