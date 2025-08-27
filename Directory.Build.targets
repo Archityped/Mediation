@@ -1,0 +1,8 @@
+<Project>
+
+	<!-- Sanitize Namespaces -->
+	<PropertyGroup>
+		<RootNamespace Condition="$(MSBuildProjectName.EndsWith('.Abstractions'))">$(MSBuildProjectName.Replace(".Abstractions", ""))</RootNamespace>
+	</PropertyGroup>
+
+</Project>

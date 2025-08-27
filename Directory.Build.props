@@ -1,0 +1,26 @@
+<Project>
+
+	<!-- Assembly Info -->
+	<PropertyGroup>
+		<Authors>Archityped</Authors>
+		<RepositoryUrl>https://github.com/Archityped/Mediation</RepositoryUrl>
+		<NeutralLanguage>en</NeutralLanguage>
+		<PackageIcon>icon.png</PackageIcon>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<LangVersion>13.0</LangVersion>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="..\..\icon.png">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+			<Visible>false</Visible>
+		</None>
+	</ItemGroup>
+
+
+</Project>

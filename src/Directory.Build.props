@@ -1,0 +1,22 @@
+<Project>
+
+	<Import Project="$([MSBuild]::GetPathOfFileAbove(Directory.Build.props, $(MSBuildThisFileDirectory)..))" />
+	<PropertyGroup>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+	</PropertyGroup>
+
+
+	<Choose>
+		<When Condition="Exists('$(MSBuildProjectDirectory)\README.md')">
+			<PropertyGroup>
+				<PackageReadmeFile>README.md</PackageReadmeFile>
+			</PropertyGroup>
+			<ItemGroup>
+				<None Include="$(MSBuildProjectDirectory)\README.md" Pack="true" PackagePath="\" />
+			</ItemGroup>
+		</When>
+	</Choose>
+
+</Project>
