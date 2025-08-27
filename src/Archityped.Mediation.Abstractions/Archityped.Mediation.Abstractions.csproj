@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;net6.0;net8.0</TargetFrameworks>
+		<Description>A lightweight, contracts-only mediator package for .NET that lets you use the mediator pattern in shared/domain libraries without bringing in the runtime. Use Archityped.Mediation for the implementation.</Description>
+		<PackageTags>archityped;mediator;mediation;abstractions;contracts;interfaces;cqrs;events;event-driven;messaging;streaming;middleware;pipelines;dependency-injection;aot;dotnet;csharp</PackageTags>
+		<PackageProjectUrl>https://github.com/Archityped/Mediation/tree/main/src/Archityped.Mediation.Abstractions</PackageProjectUrl>
+		<Version>1.0.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Bcl.AsyncInterfaces" Version="9.0.8" />
+  </ItemGroup>
+	
+</Project>
