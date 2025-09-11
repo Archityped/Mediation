@@ -1,4 +1,7 @@
 <Solution>
+  <Folder Name="/benchmarks/">
+    <Project Path="benchmarks/Archityped.Mediation.Benchmarks/Archityped.Mediation.Benchmarks.csproj" />
+  </Folder>
   <Folder Name="/src/">
     <Project Path="src/Archityped.Mediation.Abstractions/Archityped.Mediation.Abstractions.csproj" />
     <Project Path="src/Archityped.Mediation.SourceGenerator/Archityped.Mediation.SourceGenerator.csproj" />

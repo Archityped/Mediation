@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFrameworks>net8.0;net9.0</TargetFrameworks>
+		<OutputType>Exe</OutputType>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<PublishAot>true</PublishAot>
+		<PublishTrimmed>true</PublishTrimmed>
+		<InvariantGlobalization>true</InvariantGlobalization>
+		<TrimMode>partial</TrimMode>
+		<BuiltInComInteropSupport>true</BuiltInComInteropSupport>
+		<Nullable>disable</Nullable>
+	</PropertyGroup>
+	
+	<ItemGroup>
+		<PackageReference Include="BenchmarkDotNet" Version="0.15.2" />
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="9.0.8" />
+	</ItemGroup>
+	
+	<ItemGroup>
+		<ProjectReference Include="..\..\src\Archityped.Mediation\Archityped.Mediation.csproj" />
+		<ProjectReference Include="..\..\src\Archityped.Mediation.SourceGenerator\Archityped.Mediation.SourceGenerator.csproj" ReferenceOutputAssembly="False" OutputItemType="Analyzer" />
+	</ItemGroup>
+</Project>
